@@ -1,0 +1,55 @@
+.app {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+input {
+  width: 30%;
+  height: 30px;
+}
+
+.add {
+  margin-top: 25px;
+  background-color: yellow;
+  color: #000000;
+  border: 0;
+  box-sizing: border-box;
+  width: 30%;
+  padding: 16px;
+  font-size:20px;
+  font-weight: 500;
+}
+.edit-wrapper
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.add:hover
+{
+  background-color:blue;
+  color:yellow;
+}
+
+.list {
+  padding-top: 25px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid green;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.remove {
+  border: 0;
+  background-color: red;
+  color: #ffffff;
+  padding: 12px;
+}
